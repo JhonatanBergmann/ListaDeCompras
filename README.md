@@ -1,74 +1,46 @@
+
 <h1 align="center">
-  <img src="android/app/src/main/res/drawable/iconsplash.png" width="200" height="200" alt="icon" >
-  <br>
-  Lista de Compras
-  <br>
+  <img src="assets/imgs/figureNewItem.png" width="100" alt="logo" >
 </h1>
 
-<p align="center">Lista de Compras</p>
-
-<br>
-
-## 📅 Sobre
-
-Aplicação para listar produtos comprados ou/e para comprar.
+<h3 align="center">
+  Lista de Compras
+</h3>
 
 <p align="center">
-  <img src="assets/imgs/Screenshot001.png" alt="img" width="300" height="550">
-  <img src="assets/imgs/Screenshot002.png" alt="img" width="300" height="550">
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/jhonbergmann/lista-de-compras" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/jhonbergmann/lista-de-compras" />
 </p>
 
-## 🛠 Tecnologias
-- [React Native](https://facebook.github.io/react-native/)
-- [Javascript](https://devdocs.io/javascript/)
-- [Node](https://nodejs.org/en/)
-<br/>-
-- [WatermelonDB](https://nozbe.github.io/WatermelonDB/)
-- [react-native-vector-icon](https://www.npmjs.com/package/react-native-vector-icons)
+<p align="center">App para listar produtos comprados ou/e para comprar.</p>
 
-*Foram usados outros, mas esses são os principais.*
+<p align="center">
+  <img src="docs/assets/illustration.png" alt="illustration" >
+</p>
 
-## 📱 Executando 
+## 📦 Stack Tecnológica
 
-Para executar o projeto é necessário que você tenha o ambiente React Native configurado, você pode seguir esse [GUIA](https://reactnative.dev/docs/environment-setup) para tal.
+- React Native
 
-Depois de configurar o ambiente, basta fazer o clone do projeto:
+[ver no package.json](package.json)
 
-```sh
-git clone https://github.com/jhonbergmann/lista-de-compras.git
-```
+## 🔩 Instalação
 
-Entre na pasta do projeto e execute o comando para instalar as dependências do projeto:
+Para instalar e rodar o projeto localmente, siga estes passos:
 
-```sh
-yarn install
-```
-ou
-```sh
-npm install
-```
+1. Instale o [**Yarn**](https://yarnpkg.com/) no seu computador
+1. Clone o repositório `git clone https://github.com/jhonbergmann/lista-de-compras.git`
+1. Navegue até o diretório do projeto: `cd lista-de-compras`
+1. Instale as dependências: `yarn install`
 
-Em seguida execute o comando referente a plataforma ao qual deseja executar:
+## ⚙️ Uso
 
-Android:
+Rode:
 
 ```sh
 react-native run-android
 ```
 
-iOS:
-
-```sh
-react-native run-ios
-```
-
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
- Feito com 💜 by Jhonatan Bergmann
-</p>
-
+[MIT © Jhonatan Bergmann](https://github.com/jhonbergmann/lista-de-compras/blob/main/LICENSE)
