@@ -1,7 +1,7 @@
 import React from 'react'
-import {NavigationContainer} from '@react-navigation/native'
-import {createStackNavigator} from '@react-navigation/stack'
-import {heightPercentageToDP as h} from 'react-native-responsive-screen'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
+import { heightPercentageToDP as h } from 'react-native-responsive-screen'
 
 import Home from './screens/Home'
 import Register from './screens/Register'
@@ -22,20 +22,21 @@ export default function Routes() {
             },
           },
           headerBackTitleVisible: false,
-          headerTitleStyle: {fontSize: 25},
+          headerTitleStyle: { fontSize: 25 },
           headerTintColor: '#00adb5',
-          headerLeftContainerStyle: {paddingLeft: 20},
+          headerLeftContainerStyle: { paddingLeft: 20 },
         }}>
-        <Stack.Screen 
-          name="Home" 
+        <Stack.Screen
+          name="Home"
           component={Home}
-          options={{ headerShown: false }} 
-          />
-        <Stack.Screen 
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
           name="Register"
           component={Register}
-          options={{ title: 'Registrar', 
-          headerTitleStyle: { fontSize: h('3%') } 
+          options={{
+            title: 'Registrar',
+            headerTitleStyle: { fontSize: h('3%') }
           }}
         />
       </Stack.Navigator>

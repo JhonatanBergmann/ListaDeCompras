@@ -1,5 +1,5 @@
-import {Model} from '@nozbe/watermelondb'
-import {field, action} from '@nozbe/watermelondb/decorators'
+import { Model } from '@nozbe/watermelondb'
+import { field, action } from '@nozbe/watermelondb/decorators'
 
 export default class ToDo extends Model {
   static table = 'todos'

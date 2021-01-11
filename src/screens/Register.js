@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react'
+import React, { useState, useRef } from 'react'
 import {
   View,
   Text,
@@ -6,13 +6,13 @@ import {
   Keyboard,
   KeyboardAvoidingView,
   TouchableWithoutFeedback,
-  TouchableOpacity, 
+  TouchableOpacity,
   StyleSheet,
   Image
 } from 'react-native'
-import {heightPercentageToDP as h} from 'react-native-responsive-screen'
-import {useNavigation} from '@react-navigation/native'
-import {useDatabase} from '@nozbe/watermelondb/hooks'
+import { heightPercentageToDP as h } from 'react-native-responsive-screen'
+import { useNavigation } from '@react-navigation/native'
+import { useDatabase } from '@nozbe/watermelondb/hooks'
 
 function Register() {
   const navigation = useNavigation()
@@ -44,8 +44,8 @@ function Register() {
         behavior="padding"
         style={styles.container}>
         <Text style={styles.grayText}>
-          Registre um novo produto na sua 
-          <Text style={styles.pinkText}> lista de compras </Text> 
+          Registre um novo produto na sua
+          <Text style={styles.pinkText}> lista de compras </Text>
           e organize suas taréfas
         </Text>
 

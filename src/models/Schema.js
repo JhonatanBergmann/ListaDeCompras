@@ -1,4 +1,4 @@
-import {appSchema, tableSchema} from '@nozbe/watermelondb'
+import { appSchema, tableSchema } from '@nozbe/watermelondb'
 
 export default appSchema({
   version: 1,
@@ -6,9 +6,9 @@ export default appSchema({
     tableSchema({
       name: 'todos',
       columns: [
-        {name: 'title', type: 'string'},
-        {name: 'description', type: 'string'},
-        {name: 'done', type: 'boolean'}
+        { name: 'title', type: 'string' },
+        { name: 'description', type: 'string' },
+        { name: 'done', type: 'boolean' }
       ]
     })
   ]

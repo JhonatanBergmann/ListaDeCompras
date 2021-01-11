@@ -1,7 +1,7 @@
-import React, {useCallback} from 'react'
+import React, { useCallback } from 'react'
 import {
-  View, 
-  TouchableOpacity, 
+  View,
+  TouchableOpacity,
   Text,
   StyleSheet
 } from 'react-native'
@@ -10,7 +10,7 @@ import withObservables from '@nozbe/with-observables'
 
 Icon.loadFont()
 
-function Item({todo}) {
+function Item({ todo }) {
   const handleToggleCheck = useCallback(async () => {
     await todo.toggleCheck()
   }, [todo])
@@ -25,7 +25,7 @@ function Item({todo}) {
         <View
           style={[
             styles.borderIcon,
-            {borderColor: todo.done ? '#00adb5' : '#c9d6df'},
+            { borderColor: todo.done ? '#00adb5' : '#c9d6df' },
           ]}>
           {todo.done && <Icon name="check" color="#f0d379" size={30} />}
         </View>
@@ -48,7 +48,7 @@ function Item({todo}) {
   )
 }
 
-const enhance = withObservables(['todo'], ({todo}) => ({
+const enhance = withObservables(['todo'], ({ todo }) => ({
   todo,
 }))
 

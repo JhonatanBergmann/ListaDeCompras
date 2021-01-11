@@ -1,21 +1,21 @@
 import React from 'react'
 import {
-  View, 
+  View,
   FlatList,
   StyleSheet
 } from 'react-native'
 import withObservables from '@nozbe/with-observables'
-import {Q} from '@nozbe/watermelondb'
-import {withDatabase} from '@nozbe/watermelondb/DatabaseProvider'
+import { Q } from '@nozbe/watermelondb'
+import { withDatabase } from '@nozbe/watermelondb/DatabaseProvider'
 
 import Item from './Items'
 
-function ListItems({todos}) {
+function ListItems({ todos }) {
   return (
     <FlatList
       data={todos}
       keyExtractor={(todo) => todo.id}
-      renderItem={({item: todo}) => <Item todo={todo} />}
+      renderItem={({ item: todo }) => <Item todo={todo} />}
       ItemSeparatorComponent={() => <View style={styles.itemSeparator} />}
       contentContainerStyle={styles.toDoListContainer}
       showsVerticalScrollIndicator={false}
@@ -26,7 +26,7 @@ function ListItems({todos}) {
 
 const enhance = withObservables(
   ['todos', 'search', 'filter'],
-  ({database, search, filter}) => ({
+  ({ database, search, filter }) => ({
     todos: database.collections
       .get('todos')
       .query(
