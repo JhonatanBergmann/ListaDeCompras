@@ -22,8 +22,11 @@ Aplicação para listar produtos comprados ou/e para comprar.
 - [React Native](https://facebook.github.io/react-native/)
 - [Javascript](https://devdocs.io/javascript/)
 - [Node](https://nodejs.org/en/)
+<br/>-
 - [WatermelonDB](https://nozbe.github.io/WatermelonDB/)
 - [react-native-vector-icon](https://www.npmjs.com/package/react-native-vector-icons)
+
+*Foram usados outros Frameworks no projeto, mas esses são os principais.*
 
 ## 📱 Executando 
 
