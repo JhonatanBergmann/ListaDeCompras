@@ -26,7 +26,7 @@ Aplicação para listar produtos comprados ou/e para comprar.
 - [WatermelonDB](https://nozbe.github.io/WatermelonDB/)
 - [react-native-vector-icon](https://www.npmjs.com/package/react-native-vector-icons)
 
-*Foram usados outros Frameworks no projeto, mas esses são os principais.*
+*Foram usados outros, mas esses são os principais.*
 
 ## 📱 Executando 
 
@@ -35,7 +35,7 @@ Para executar o projeto é necessário que você tenha o ambiente React Native c
 Depois de configurar o ambiente, basta fazer o clone do projeto:
 
 ```sh
-git clone https://github.com/JhonatanBergmann/lista-de-compras.git
+git clone https://github.com/jhonbergmann/lista-de-compras.git
 ```
 
 Entre na pasta do projeto e execute o comando para instalar as dependências do projeto:
